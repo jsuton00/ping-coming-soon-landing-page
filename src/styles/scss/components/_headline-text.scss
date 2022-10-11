@@ -1,0 +1,28 @@
+.headline {
+	&-text-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		padding: 0.5rem;
+	}
+	&-text-heading {
+		font-size: 2rem;
+		width: 100%;
+		text-align: center;
+		padding: 0.25rem 0;
+		margin-bottom: 0.25rem;
+	}
+	&-text {
+		font-size: 0.9375rem;
+	}
+}
+
+.alternative-emphasis {
+	color: $gray;
+	margin-right: 0.3125rem;
+}
+
+.primary-emphasis {
+	font-weight: $libreFranklin-bold;
+}
